@@ -41,7 +41,7 @@ namespace Kachuwa.HtmlContent.Controllers
             int rowsPerPage = 10;
             //customized viewmodel with join
             var model = await _htmlContentService.HtmlService.GetListPagedAsync(pageNo, rowsPerPage, 1,
-                "Where KeyName like @Query and IsDeleted=0 and Culture=@Culture", "Addedon desc", new { Culture = _webSetting.BaseCulture, Query = "%" + query + "%" });
+                "Where KeyName like @Query and IsDeleted=0 ", "Addedon desc", new {  Query = "%" + query + "%" });
             return View(model);
         }
 

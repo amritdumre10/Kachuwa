@@ -83,7 +83,7 @@
     {
       "library": "jquery-contextmenu@2.9.0",
       "destination": "wwwroot/lib/jquery-contextmenu/"
-    },  
+    },
     {
       "library": "popper.js@1.16.1",
       "destination": "wwwroot/lib/popper.js/"

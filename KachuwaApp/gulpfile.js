@@ -1,6 +1,6 @@
 ﻿/// <binding AfterBuild='default' />
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var sourcemaps = require('gulp-sourcemaps');
 var bs = require('browser-sync').create();
 var rename = require('gulp-rename');

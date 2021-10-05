@@ -16,12 +16,15 @@
     "~/lib/animate.css/animate.min.css"})
 
     <link href="~/Themes/Shared/Default/css/theme.min.css" rel="stylesheet" />
-    @await bundler.BundleJs("jquery-core", new string[]
+    @*@await bundler.BundleJs("jquery-core", new string[]
                 {
         "~/lib/jquery/dist/jquery.min.js",
         "~/lib/jquery-validation/dist/jquery.validate.min.js"
         ,"~/lib/jquery-validation/dist/additional-methods.min.js"
-                })
+                })*@
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validate/additional-methods.min.js"></script>
 </head>
 <body>
     <div class="container">

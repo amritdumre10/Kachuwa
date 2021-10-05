@@ -2,7 +2,7 @@
   "KachuwaAppConfig": {
     "AppName": "KachuwaApp",
     "SiteUrl": "https://kachuwaframework.com",
-    "IsInstalled": false,
+    "IsInstalled": true,
     "DbProvider": "SQLServer",
     "Framework": "",
     "Version": "1.0.0",
@@ -15,7 +15,6 @@
     "PasswordLength": 8,
     "RequireNonAlphanumeric": false,
     "RequireUppercase": false,
-    "CookieDomain": "localhost",
     "SMTMConfig": {
       "Host": "smtp.sendgrid.net",
       "UserName": "OK_SMTP",
